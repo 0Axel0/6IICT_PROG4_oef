@@ -16,7 +16,7 @@ dict["belgie"]["provincie"]["informatie"] = x
 # print(dict)
 # print(dict["belgie"]["provincie"]["informatie"]["gouverneur"])
 
-""" Niveau 2 """
+""" Niveau 3 """
 extra_info = [  ["mannen", 49.77], 
                 ["vrouwen", 50.23], 
                 ["hoofdstad", "hasselt"] ]
