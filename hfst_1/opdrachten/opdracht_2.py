@@ -8,4 +8,9 @@ scores = [
     [ 10, 10, 0, 9, 1, 8, 7.5, 8, 6, 9 ], # Brian
     [ 7, 6, 5 ], # Life
     [ 6, 5, 6, 6 ] # Different
-] 
+]
+
+ratings = {}
+for index,value in enumerate(films):
+    ratings[value] = scores[index]
+print(ratings)
