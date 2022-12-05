@@ -10,8 +10,10 @@ menu = {
     "tortilla salade": 8.00
 }
 keuze_lijst = []
+totaal = []
 while True:
     keuze = input("wat wilt u hebben?")
+    keuze = keuze.lower()
     if keuze in menu:
         keuze_lijst.append(keuze)
         print(keuze_lijst)
@@ -20,7 +22,8 @@ while True:
 
     if keuze == "":
         break
-    
+
 for eten in keuze_lijst:
-    for key, value in menu[eten]:
-        	print(value)
+    totaal.append(menu[eten])
+totaal_bedrag = sum(totaal)
+print(f"Dat word dan {totaal_bedrag} euro A.U.B.")
