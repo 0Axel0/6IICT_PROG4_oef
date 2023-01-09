@@ -48,7 +48,6 @@ csv_writer = csv.writer( fp , delimiter=",")    # schrijf de lijst in het bestan
 
 for rij in machten_verwerkt:
     csv_writer.writerow(rij)  # zet de lijst in het csv bestand
-
 fp.close()  # close het bestnd
     
     

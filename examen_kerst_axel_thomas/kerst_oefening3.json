@@ -1,0 +1,18 @@
+{
+    "highscore": 1,
+    "scherm" :{
+        "breedte": 600,
+        "hoogte": 400
+    },
+    "slang": {
+        "grootte" : 10,
+        "snelheid" : 15
+    },
+    "eten": 10,
+    "kleur": {
+        "wit": [255,255,255],
+        "rood": [255,0,0],
+        "groen": [0, 255, 0],
+        "blauw": [0, 0, 255]
+    }
+}

@@ -1,27 +1,5 @@
 {
-    "pionnen": {
-        "aantal": 8,
-        "beweging": "vooruit",
-        "engelse_naam": "pawn"
-    },
-    "paard": {
-        "aantal": 2,
-        "beweging": "L-vorm",
-        "engelse_naam": "knight"
-    },
-    "loper": {
-        "aantal": "/",
-        "beweging": "diagonaal",
-        "engelse_naam": "bishop"
-    },
-    "toren": {
-        "aantal": 2,
-        "beweging": "orthagonaal",
-        "engelse_naam": "rook"
-    },
-    "koning": {
-        "aantal": 1,
-        "beweging": "een vak",
-        "engelse_naam": "king"
-    }
+    "access_token": "BQDxs5Kl6JS5n0wF_1Gpe36YNjECGm-QO-iXm5ogN27pUHz4TgcDg371QmvGgPRCfcZsb6ZTf67e9H7UCQQBkNIKhW9LlxNCHPkASW3cofGb4STQ0Q0",
+    "token_type": "Bearer",
+    "expires_in": 3600
 }
