@@ -25,8 +25,16 @@ def genereer():
 
 # TODO: bereken hoeveel de gok van de gebruiker langs random_getal zat.
 def bereken_erlangs():
-    pass
-
+    getal = entry_2.get()
+    hoeveel_vanaf = abs(random_getal - int(getal))
+    label_naam = tk.Label(master=venster, text=f"je zit er {hoeveel_vanaf} vanaf.", width=50, height=2)
+    label_naam.grid(row = 1, column = 3)
+    if hoeveel_vanaf == 0:
+        label_naam = tk.Label(master=venster, text=f"goed gedaan het getal was {random_getal}.", width=50, height=2)
+        label_naam.grid(row = 2, column = 3)
+    else:
+        label_naam = tk.Label(master=venster, text="", width=50, height=2)
+        label_naam.grid(row = 2, column = 3)
 
 # Zet labels met uitleg klaar.
 label = tk.Label(padx=40, pady=5, master=venster, text="Geef een getal in: ")

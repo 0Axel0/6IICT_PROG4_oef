@@ -16,6 +16,8 @@ link_2.grid(row=1, column=1)
 # TODO: pas reset_links aan. Gebruik insert om de gevraagde elementen toe te voegen.
 def reset_links():
     link_1.delete(0, tk.END)
+    link_1.insert(0, "www.")
+    link_2.insert(tk.END, ".com")
 
 knop = tk.Button(master=venster, command=reset_links, 
                  text="Reset input!", width=50)
