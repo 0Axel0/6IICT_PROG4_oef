@@ -35,7 +35,7 @@ persoon_2 = Persoon("Jef")
 
 persoon_1.koop_hond(hond_1)
 persoon_2.koop_hond(hond_2)
-persoon_2.koop_hond(hond_1) # Lulu heeft reeds Jos als eigenaar.
+persoon_2.koop_hond(hond_1)
 
-print(persoon_1.is_eigenaar(hond_1)) # True
-print(persoon_2.is_eigenaar(hond_1)) # False
+print(persoon_1.is_eigenaar(hond_1))
+print(persoon_2.is_eigenaar(hond_1))

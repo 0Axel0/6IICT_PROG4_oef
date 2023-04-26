@@ -1,7 +1,7 @@
 class Kat:
     naam = "Borysz"
 
-    def miauw(self):
+    def miauw(kitten):
         print(f"{kitten.naam} zegt miauw")
 
 kater = Kat()
