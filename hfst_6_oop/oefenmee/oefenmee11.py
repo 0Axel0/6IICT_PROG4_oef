@@ -4,7 +4,7 @@ class Hond:
         self.eigenaar = ""
 
     def is_hond(self, eigenaar):
-        if self.eigenaar == eigenaar.naam: ## of self.naam in hond.eigenaar
+        if self.eigenaar == eigenaar.naam:
             return True
         else:
             return False

@@ -1,20 +1,20 @@
 import random
 
 class Hond:
-    positie = ["living", "keuken", "garage", "gang", "tuin"]
-    def __init__(self,naam):
+    locaties = ["living", "tuin", "buren"]
+    def __init__(self, naam):
         self.naam = naam
-        self.positie = random.choice(self.positie)
+        self.locatie = random.choice(self.locaties)
 
     def ziet_hond(self, andere_hond):
-        if self.positie == andere_hond.positie:
-            print(f"{self.naam} ziet {andere_hond.naam} in {self.positie}")
+        if self.locatie == andere_hond.locatie:
+            print(f"{self.naam} ziet {andere_hond.naam} in de {self.locatie}.")
 
             gekozen = random.choice([self,andere_hond])
-            gekozen.positie = random.choice(self.positie)
-            print(f"{gekozen.naam} is bang en rent naar de {self.positie}.")
+            gekozen.locatie = random.choice(self.locaties)
+            print(f"{gekozen.naam} is bang en rent naar de {self.locatie}.")
         else:
-            print(f"{self.naam} ziet geen hond in de {self.positie}.")
+            print(f"{self.naam} ziet geen hond in de/het {self.locatie}.")
 
 hond_1 = Hond("Lulu")
 hond_2 = Hond("Floris")
